@@ -39,4 +39,24 @@ body {
 #main {
     transition: margin-left .5s;
     padding: 16px;
+    background-color: lightblue;
+}
+
+.h {
+  background-color: yellow;
+}
+
+#orderMyGroups {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section, .top{
+  order: 1;
+  width: 50%;
+}
+
+section, .bottom {
+  order: 2;
+  width: 50%;
 }
